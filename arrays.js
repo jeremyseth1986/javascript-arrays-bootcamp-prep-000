@@ -4,3 +4,4 @@ chocolateBars.push("twix");
 function addElementToBeginningOfArray(array, element) {
   [element, ...array];
 }
+addElementToBeginningOfArray('foo',1);
